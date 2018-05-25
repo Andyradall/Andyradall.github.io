@@ -1,0 +1,15 @@
+font-family: 'Gaegu', cursive;
+
+.bg {
+    position: relative; 
+}
+
+.lokasjon {
+    font-family: Gaegu;
+    font-size: 2.3em;
+    color: #D0021B;
+    position: absolute;
+    bottom: 8px;
+    left: 160px; 
+    
+}
