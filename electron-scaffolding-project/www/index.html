@@ -12,22 +12,34 @@
 
 </head>
 
-<body>
+<body data-fetch-success="false">
+    <div class="visibleBeforeLoaded">
+        <p>Checking the water...</p> 
+    </div>
+    <img class="bg" src="img/bgtest.jpg" alt="background" height="518" width="530">
 
-    <img class="bg" src="img/bg.jpg" alt="background" height="580" width="480">
-
-    <div class="lokasjon">
-        <p>Bygdoy Sjobad</p>
+    <div class="lokasjon hiddenBeforeLoaded">
+        <p>Bygdøy Sjøbad</p>
     </div>
 
-    <div class="gradestokk">
+    <div id="linje" class="linje">
+
     </div>
 
-    <div class="temperaturer">
-        
-    </div>    
+    <div id="linje2" class="linje2">
 
-        <script src="js/main.js"></script>
+    </div>
+
+
+    <div class="temperatur hiddenBeforeLoaded">
+        <p>Vann:
+            <span id="tempVann"></span>°</p>
+
+        <p> Luft:
+            <span id="tempLuft"></span>°</p>
+    </div>
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>
